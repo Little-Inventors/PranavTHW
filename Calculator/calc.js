@@ -19,7 +19,7 @@ function storeLog(opertator, previousValue, inputValue, result) {
     inputValue: inputValue,
     result: currentResult,
   };
-  console.log(logEntry.opertator);
+  console.log(logEntry.result);
 }
 
 function add() {
